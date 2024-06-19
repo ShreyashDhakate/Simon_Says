@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+}
+.mbox{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 12em;
+    width: 12em;
+    margin: 20px;
+    border: 0.5em solid black;
+    border-radius: 20%;
+}
+.one{
+    background-color: #ef476f;
+}
+.two{
+    background-color: #ffd166;
+}
+.three{
+    background-color: #06d6a0;
+}
+.four{
+    background-color: #118ab2;
+}
+.flash{
+    background-color: #fff;
+}
+.userflash{
+    background-color: greenyellow;
+}
+.high{
+    background-color: rgb(131, 226, 175);
+    height: 100vh;
+    color: #030637;
+}
+.talk{
+    text-align: center;
+    background-color: #D37676;
+    height: 100vh;
+}
+
+
+html {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+    
+  }
+
+  @media (max-width: 776px) {
+    .talk{
+        height: 0rem  !important;
+        width: 0em !important;
+    }
+    .high{
+        width: 100vh !important;
+        margin-right: 0 !important;
+        height: auto;
+    }
+    .container{
+        margin-top: 2rem !important;
+    }
+  }
+
+.heading {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+  
